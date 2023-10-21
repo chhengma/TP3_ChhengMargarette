@@ -1,1 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+$font-family-sans-serif: 'Abhaya Libre', serif;
+$primary: #3E4544;
+$secondary:#C0C8BD;
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.navbar-nav .nav-link:hover {
+	color: $secondary;
+}
+
+.nav-link.active{
+	font-weight: $display-font-weight;
+}
