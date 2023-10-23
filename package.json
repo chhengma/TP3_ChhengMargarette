@@ -4,6 +4,6 @@
     "sass": "^1.69.4"
   },
   "scripts": {
-    "build-css": "sass style/sass:style/css"
+    "build-scss": "sass style/sass:style/css"
   }
 }
