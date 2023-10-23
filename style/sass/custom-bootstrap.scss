@@ -1,3 +1,5 @@
+@use 'styles';
+
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 
 $font-family-sans-serif: 'Abhaya Libre', serif;
@@ -13,6 +15,11 @@ $display-font-weight: 700;
 
 .nav-link.active{
 	font-weight: $display-font-weight;
+}
+
+.btn:hover {
+	background-color: $secondary;
+	color: $primary;
 }
 
 .carousel-overlay {
