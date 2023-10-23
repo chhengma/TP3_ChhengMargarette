@@ -32,3 +32,12 @@ $display-font-weight: 700;
 	padding-left: 180px;
 	padding-right: 50px;
 }
+
+@media (max-width: 960px) {
+	.carousel-overlay {
+		width: 100%;
+		padding-left: 100px;
+		padding-right: 100px;
+		text-align: center;
+	}
+}
