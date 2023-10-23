@@ -188,12 +188,11 @@
 				<p>Soyez parmi les premiers à découvrir nos nouveaux produits au crochet.</p>
 				<div class="row justify-content-center">
 					<div class="col-md-8">
-						<form id="subscribe-form" onsubmit="showAlert(event);">
+						<form id="subscribe-form">
 							<div class="mb-3">
-								<input type="email" class="form-control text-center" id="exampleInputEmail1"
-									placeholder="exemple@courriel.com" aria-describedby="emailHelp">
+								<input onfocus="myFunction(this)" class="form-control text-center" type="email" name="courriel" id="courriel" placeholder="exemple@courriel.com">
 							</div>
-							<button type="submit" class="fw-bold btn btn-primary">Submit</button>
+							<button id="monBouton" type="submit" class="fw-bold btn btn-primary">Submit</button>
 						</form>
 					</div>
 				</div>
